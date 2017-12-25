@@ -120,11 +120,11 @@ a {
 	transform:translate(-50%,0);
 }
 h2 {
-	/*font-family: 'gastromond', sans-serif;*/
-	font-family:'Univers LT W01_45 Light1475944';
+	font-family: 'gastromond', sans-serif;
+/*	font-family:'Univers LT W01_45 Light1475944';*/
 	font-style: normal;
 	font-weight: 400;
-	font-size: 3em;
+	font-size: 1.5em;
 	margin:0;
 	position: absolute;
 	top: 55%;
