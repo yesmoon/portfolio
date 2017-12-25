@@ -187,6 +187,8 @@ ul#nav a:hover{
    	padding:0;
 	margin:0 auto;
 	position: relative;
+	margin-bottom: 4em;
+
 }
 .design p {	
 	font-family:'Univers LT W01_45 Light1475944';
@@ -290,7 +292,7 @@ ul#nav a:hover{
 	position: relative;
 	margin-top: 15px;
 	font-size: 18px;
-	line-height: 1.2em;
+	line-height: 1.4em;
 	font-family:'Univers LT W01_45 Light1475944';
 }
 
