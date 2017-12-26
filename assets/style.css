@@ -137,6 +137,7 @@ h3 {
 	font-size: 2.4em;
 	margin:0;
 	margin-top: 20px;
+	line-height:1.1em;
 }
 
 h4 {
@@ -207,7 +208,6 @@ ul#nav a:hover{
 	padding-bottom: 0;
 	margin:0 auto;
 	margin: 5px;
-	background-color: blue;
 	overflow: hidden;
 	transition:.2s ease-in-out;
 	-webkit-transition:.2s ease-in-out;
@@ -399,7 +399,7 @@ height: 445px;
 
 @media only screen and (max-width: 375px) {
 	.nav {
-		width: 350px;
+		width: 375px;
 		height: 55px;
 	}
 	h2 {
@@ -444,6 +444,22 @@ height: 445px;
 		font-size: 18px;
 		width: 100%;
 		text-align: left;
+	}
+
+/*PROJECT PAGES*/	
+
+	.title, .project-image, .project-image img, 
+	.project-body, .intro img, .project-image-large, 
+	.project-image-large img, h3, h4 {
+		width: 350px;
+	}
+
+	.intro {
+		padding: 0;
+	}
+	
+	.project-image, .project-image-large {
+		margin:20px 0px;
 	}
 
 }
