@@ -383,17 +383,24 @@ h3 a:hover {
 .nav {
 width: 1410px;
 }
-.intro {
+.intro, h3, h4 {
 width: 1410px;
+}
+.intro img {
+width: 1400px;
+}
+.project-image-large, .project-image-large img {
+width: 1400px;
+}
+.project-image, .project-image img, .project-body {
+width: 800px;
+}
+.quote {
+width: 600px;
 }
 .design {
 width: 1410px;
 }
-/*.image {
-width: 685px;
-height: 445px;
-}
-*/
 }
 
 @media only screen and (max-width: 375px) {
