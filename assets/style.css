@@ -7,7 +7,9 @@
 
 
 /*body{
-	background-color: #fffbfb;
+	background-image: url('images/about/yasmeen.png');
+	background-size: cover;
+	background-attachment: fixed;
 }*/
 
 ::-moz-selection {
@@ -32,10 +34,8 @@
 }
 
 body, html {
-    height: 100%;
     padding:0px;
 	margin: 0px;
-	padding-top: 0px;
 }
 /*
 #circle {
@@ -70,12 +70,10 @@ a {
 .intro {
 	display: block;
 	width:940px;
-	/*padding: 10px;*/
 	height:auto;
-	/*margin-top: 40px;*/
 	margin-bottom: 6em;
 	margin:0 auto;
-	margin-top: 60px;
+	margin-top: 70px;
 	padding-left:5px;
 
 }
@@ -98,7 +96,7 @@ a {
 	cursor: move;
 }
 
-.intro p {
+.p {
 	font-family: 'simplon mono light', sans-serif;
 	font-style: normal;
 	font-size: 0.7em;
@@ -228,6 +226,7 @@ ul#nav a:hover{
 	width:105%;
 	height: 105%;
 	position: absolute;
+	display: inline;
 	top: 0;
 	left: 0;
 	transition:.2s ease-in-out;
@@ -260,15 +259,12 @@ ul#nav a:hover{
 .thumbnail-title {
 	opacity: 0;
 	z-index: 3;
-/*	font-size: 30px;*/
 	font-size: 1.5em;
-	width: auto;
-	padding: 3px 10px 0px 10px;
+	width: 400px;
 	font-family: 'gastromond', sans-serif;
 	color: black;
 	position: absolute;
 	text-align: center;
-	background-color: #fffc06;
 	top: 50%;
 	left: 50%;
 	transform:translate(-50%,-50%);
@@ -276,7 +272,13 @@ ul#nav a:hover{
 	-webkit-transition:.2s ease-in-out;
 	-moz-transition:.2s ease-in-out;
 	-o-transition:.2s ease-in-out;
+}
 
+.thumbnail-title > span {
+	background-color: #fffc06;
+	padding: 5px 0 2px 0;
+	box-shadow: 8px 0 0 yellow, -8px 0 0 yellow;;
+	cursor: pointer;
 }
 
 .title {
@@ -377,7 +379,44 @@ h3 a {
 h3 a:hover {
 	background-color: #fffc06; 
 }
+/*___________________________________________________ABOUT PAGE*/
 
+.button {
+	font-family: simplon mono light;
+	font-size: 0.7em;
+	line-height: 1.5em;
+	padding: 3px 0px;
+	position: relative;
+	transition:.2s ease-in-out;
+	-webkit-transition:.2s ease-in-out;
+	-moz-transition:.2s ease-in-out;
+	-o-transition:.2s ease-in-out;
+}
+.button span {
+	transition:.2s ease-in-out;
+	-webkit-transition:.2s ease-in-out;
+	-moz-transition:.2s ease-in-out;
+	-o-transition:.2s ease-in-out;
+}
+.button:hover span {
+	background-color: #fffc06;
+	cursor: pointer;
+	transition:.2s ease-in-out;
+	-webkit-transition:.2s ease-in-out;
+	-moz-transition:.2s ease-in-out;
+	-o-transition:.2s ease-in-out;
+}
+.active {
+	background-color: #fffc06;
+}
+.inactive {
+	background-color: none;
+}
+.accordion, .accordion p {
+	font-family:'Univers LT W01_45 Light1475944';
+	font-weight: normal;
+	font-size: 18px;
+}
 
 @media only screen and (min-width: 1520px) {
 .nav {
@@ -469,5 +508,4 @@ width: 1410px;
 	}
 
 }
-
 
