@@ -29,8 +29,8 @@
 }
 
 @font-face {
-    font-family: b arabic;
-    src: url(fonts/barabics.ttf);
+    font-family: simplon mono regular;
+    src: url(fonts/simplon-mono-regular.ttf);
 }
 
 body, html {
@@ -139,7 +139,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'simplon mono light';
+	font-family:'simplon mono regular';
 	font-size: 1em;
 	font-weight: 400;
 	margin: 0;
