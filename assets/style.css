@@ -416,7 +416,7 @@ h3 a:hover {
 .accordion, .accordion p {
 	font-family:'Univers LT W01_45 Light1475944';
 	font-weight: normal;
-	font-size: 38px;
+	font-size: 28px;
 }
 
 @media only screen and (min-width: 1520px) {
