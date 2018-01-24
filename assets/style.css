@@ -117,16 +117,14 @@ a {
 }
 h2 {
 	font-family: 'gastromond', sans-serif;
-	font-family:'Univers LT W01_45 Light1475944';
-	font-family: 'simplon mono light', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 0.7em;
+	font-size: 1.5em;
 	margin:0;
 	position: absolute;
 	top: 55%;
 	transform:translate(0,-50%);
-	background-color: yellow;
+
 }
 h3 {
 	font-family: 'gastromond', sans-serif;
@@ -263,7 +261,7 @@ ul#nav a:hover{
 	font-size: 1.5em;
 	width: 400px;
 	font-family: 'gastromond', sans-serif;
-
+/*	font-family: 'simplon mono regular', sans-serif;*/
 	color: black;
 	position: absolute;
 	text-align: center;
