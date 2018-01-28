@@ -54,6 +54,10 @@ body, html {
 a {
 	color: black;
 }
+iframe {
+	width: 100% !important;
+	height: 526px;
+}
 #one {
 	width: 940px;
 	margin:0 auto;
@@ -477,6 +481,12 @@ font-size: 14px;
 width: 350px;
 margin-top: 65px;
 font-size: 18px;
+}
+.intro iframe {
+	transform: translate(0px, -150px);
+}
+.vidpage {
+	transform: translate(0px, -300px);
 }
 .design {
 width: 350px;
