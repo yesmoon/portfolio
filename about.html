@@ -10,9 +10,33 @@
 	<script src="https://use.typekit.net/akj3ukw.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<script type="text/javascript" src="//fast.fonts.net/jsapi/ca1198fe-0e4c-48b5-94fa-6b3fe013beef.js"></script>
+	<script type="text/javascript" src="assets/ball.js"></script>
+	<style type="text/css">
+
+		#ball {
+			display: none;
+			-webkit-transition: all;
+			transition: all;
+			position:absolute;
+			width:100px;
+			height: 115px;
+			/*border-radius: 50%;*/
+			background-image: url(assets/images/about/myface.gif);
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 99999;
+		}
+		@media only screen and (max-width: 420px) {
+			#ball {
+				display: block;
+			}
+		}
+	</style>
 
 </head>
 
+<body onload="init()">
+<div id="ball"></div>
 <div class="nav">
 	<a href="index.html"><h2>Yasmeen Khaja</h2></a>
 	<ul id="nav">
