@@ -342,6 +342,11 @@ ul#nav a:hover{
 	height: auto;
 }
 
+.small img {
+	width:300px;
+	height: auto;
+}
+
 .project-image-icon {
 	width: 90px;
 	height: auto;
