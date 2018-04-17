@@ -121,10 +121,10 @@ iframe {
 	transform:translate(-50%,0);
 }
 h2 {
-	font-family: 'gastromond', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.5em;
+	/*font-family: 'gastromond', sans-serif;*/
+	font-family:simplon mono regular;
+	/*font-weight: 400;*/
+	font-size: 2em;
 	margin:0;
 	position: absolute;
 	top: 55%;
@@ -132,7 +132,8 @@ h2 {
 
 }
 h3 {
-	font-family: 'gastromond', sans-serif;
+	/*font-family: 'gastromond', sans-serif;*/
+	font-family:simplon mono regular;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 2.4em;

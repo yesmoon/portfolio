@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>image blur test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<style>
+		.image{
+			display: block;
+			width: 500px;
+			max-width: 500px;
+			height:auto;
+			overflow: hidden;
+		/*	background-color: blue;*/
+
+
+		}
+
+		.image img{
+			width: 100%;
+			height: 100%;
+			filter:blur(25px);
+/*			 -webkit-transition: filter 0.1s ease-out;
+ 	 -moz-transition: filter 0.1s ease-out;
+  	-o-transition: filter 0.1s ease-out;
+  	transition: filter 0.1s ease-out;*/
+		}
+
+		.image img:hover{
+			filter: blur(0px);
+			cursor: pointer;
+		}
+
+	</style>
+	
+
+</head>
+
+<body>
+
+<div class="image">
+	<img src="assets/images/loveandtenderness/1.2.jpg">
+</div>
+<div class="image">
+	<img src="assets/images/loveandtendertype/preview3.jpg">
+</div>
+<div class="image">
+	<img src="assets/images/bombcam/preview2.gif">
+</div>
+<div class="image">
+	<img src="assets/images/pancakes/1.2.jpg">
+</div>
+
+</body>
+</html>
