@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background-color: #DADCFF; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#e0c9ff, #ffe6c9);
+  background-color: #021310; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#021310, #42506d);
   height: 100%; /* Standard syntax (must be last) */
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,15 +13,22 @@ body {
 
 
 .construct {
-  width: 60%;
+  width: 50%;
   margin-left: 8%;
   margin-top: 8%;
-  font-family: simplon mono regular;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
   line-height: 1.2em;
-  font-size: 2.8em;
+  font-size: 1.2em;
 }
 
+.construct ul {
+  list-style-type: none;
+}
 
+.construct li {
+    margin-bottom: 1em;
+}
 
 
 
