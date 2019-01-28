@@ -10,8 +10,6 @@ body {
   background-attachment: fixed;
 }
 
-
-
 .construct {
   width: 50%;
   margin-left: 8%;
@@ -28,6 +26,13 @@ body {
 
 .construct li {
     margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+  .construct {
+    font-size: 1.1em;
+    width: 70%;
+  }
 }
 
 
@@ -500,7 +505,7 @@ width: 1410px;
 }
 }
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 426px) {
 .nav {
 width: 375px;
 height: auto;
@@ -576,7 +581,7 @@ padding: 3px 10px 2px 0px;
 
 /*PROJECT PAGES*/
 
-.title, .project-image, .project-image img,
+/* .title, .project-image, .project-image img,
 .project-body, .intro img, .project-image-large,
 .project-image-large img, h3, h4 {
 width: 350px;
@@ -599,4 +604,4 @@ margin:20px 0px;
 	margin-left: 0 !important;
 }
 
-}
+} */
