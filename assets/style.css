@@ -1,3 +1,38 @@
+body {
+  background-color: #DBE6F6; /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(#e0c9ff, #ffe6c9);
+  height: 100%; /* Standard syntax (must be last) */ */
+}
+
+.construct {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10%;
+  font-family: simplon mono regular;
+  line-height: 1.5em;
+  font-size: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANYTHING BELOW IS FOR OLD WEBSITE---------------------------- */
+
 /*body {
 	background-image: url("images/bg.jpeg");
 	background-repeat: no-repeat;
@@ -150,14 +185,6 @@ h4 {
 	margin: 0;
 }
 
-h5 {
-	font-family: sans-serif;
-	font-size: 5em;
-	text-decoration: none;
-	font-weight: normal;
-	margin: 0;
-}
-
 
 ul#nav {
 	font-family: 'simplon mono light', sans-serif;
@@ -198,7 +225,7 @@ ul#nav a:hover{
 	margin-bottom: 4em;
 
 }
-.design p {	
+.design p {
 	font-family:'Univers LT W01_45 Light1475944';
 }
 
@@ -384,11 +411,11 @@ ul#nav a:hover{
 }
 
 h3 a {
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 h3 a:hover {
-	background-color: #fffc06; 
+	background-color: #fffc06;
 }
 /*___________________________________________________ABOUT PAGE*/
 
@@ -535,7 +562,7 @@ padding: 3px 10px 2px 0px;
 /*PROJECT PAGES*/
 
 .title, .project-image, .project-image img,
-.project-body, .intro img, .project-image-large, 
+.project-body, .intro img, .project-image-large,
 .project-image-large img, h3, h4 {
 width: 350px;
 }
