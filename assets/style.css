@@ -1,8 +1,16 @@
-body {
-  background-color: #DBE6F6; /* For browsers that do not support gradients */
-  /* background-image: linear-gradient(#e0c9ff, #ffe6c9);
-  height: 100%; /* Standard syntax (must be last) */ */
+html {
+  height: 100%;
 }
+
+body {
+  background-color: #DADCFF; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#e0c9ff, #ffe6c9);
+  height: 100%; /* Standard syntax (must be last) */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
 
 .construct {
   width: 50%;
