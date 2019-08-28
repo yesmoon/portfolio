@@ -8,28 +8,37 @@ body {
   height: 100%; /* Standard syntax (must be last) */
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-image: linear-gradient(#ffffff, #e4e2dc);
 }
 
-.construct {
+.main {
   width: 50%;
-  margin-left: 8%;
+  margin-left: 4%;
   margin-top: 8%;
   font-family: 'Work Sans', sans-serif;
-  color: white;
-  line-height: 1.2em;
-  font-size: 1.2em;
+  color: black;
+  line-height: 1.3em;
+  font-size: 2.1em;
 }
 
-.construct ul {
+.main ul {
   list-style-type: none;
 }
 
-.construct li {
-    margin-bottom: 1em;
+.main li {
+    margin-bottom: 0.7em;
+}
+
+.main li a {
+  text-decoration:underline;
+}
+
+.main li a:hover {
+  color: #2bb920;
 }
 
 @media only screen and (max-width: 500px) {
-  .construct {
+  .main {
     font-size: 1.1em;
     width: 70%;
     margin-top: 13%;
