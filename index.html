@@ -1,36 +1,80 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta charset="utf-8">
-	<title>Yasmeen Khaja</title>
+   <!-- Load CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 
-	<link rel="shortcut icon" href="assets/images/favicon.ico" type="img/png">
+    <!-- Load jQuery first -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<script type="text/javascript" src="//fast.fonts.net/jsapi/ca1198fe-0e4c-48b5-94fa-6b3fe013beef.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <!-- Load your custom JS AFTER jQuery -->
+    <script src="assets/hover.js" defer></script>
 
+  <title>Yasmeen Khaja</title>
 
-
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="img/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <script type="text/javascript" src="//fast.fonts.net/jsapi/ca1198fe-0e4c-48b5-94fa-6b3fe013beef.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/akj3ukw.css">
 </head>
 
 <body>
 
-<div class="main">
-	<ul>
-		<li><a href="https://designresearch.sva.edu/student/yasmeen-khaja/">Graduate</a> of MA Design Research, Writing, and Criticism at SVA.
-			<a href="http://sfpc.io/codesocieties-winter-19/blog">Recently</a> at School for Poetic Computation's Code Societies Winter
-			2019 intensive. Previously at CCA in San Francisco for Graphic Design,
-			and Writing + Literature.</li>
-	</ul>
-	<ul>
-		<li><a href="mailto:yasmeenadelkhaja@gmail.com">yasmeenadelkhaja@gmail.com</a></li>
- </ul>
 
+<div class="main">
+  <ul id="myNav">
+    <li><a href="#">Yasmeen Khaja is a designer and writer based in Kuwait.</a></li><br><br>Her work includes
+    <li><a href="#">designing a book</a></li> of personal COVID-era essays,
+    <li><a href="#">creating a campaign</a></li> using a leading newspaper’s archives,
+    branding the <li><a href="#">visual identity of multiple architecture studios,</a></li>
+    giving a workshop on <li><a href="#">how we're connected to everything,</a></li>
+    crafting a <li><a href="#">proposal for creative interest,</a></li> 
+    presenting a paper on the <li><a href="#">invisible design of internet barriers,</a></li>
+    and ongoing work on <li><a href="#">meme culture in Kuwait.</a></li>
+  </ul><br>
+  
+  <ul>
+    <small-info>
+      <small-caps>past clients</small-caps><br>
+      Sharaf Studio, Ministry of Foreign Affairs, Cantina, en.v Kuwait, HIND, more...<br><br>
+      <small-caps>educational background</small-caps><br>
+      BFA in Graphic Design from California College of the Arts<br>
+      Minor in Writing and Literature<br>
+      MA in Design Research, Writing, and Criticism<br>
+      </small-info>
+  </ul><br>
+
+  <ul>
+    <small-info>
+    	<small-caps>
+      		<a href="mailto:yasmeenadelkhaja@gmail.com" style="text-decoration:none;">send an email</a> 
+      	</small-caps>
+    </small-info>
+  </ul>
 </div>
 
+<div class="box"> 
+   <!-- <div id="navImage"> -->
+    <div id="navImage">
+      <img src="assets/images/about/WEBSITE PHOTO_cropped.jpg" style="display:block;">
+      <img src="assets/images/01_day/01.png" alt="Everyday is a Struggle Book Design">
+      <img src="assets/images/01_day/02.png" alt="Kuwait Times Campaign">
+      <img src="assets/images/01_day/03.png" alt="Wa Studio Branding">
+      <img src="assets/images/01_day/04.png" alt="Interconnectedness Workshop">
+      <img src="assets/images/01_day/05.png" alt="ILO Proposal">
+      <img src="assets/images/01_day/06.png" alt="Paper on Captcha Technology Design">
+      <img src="assets/images/01_day/07.png" alt="Meme Reader Kuwaiti Memes Infrastructural Failure">
+  </div>
+ </div>
+
+<!--    <script>
+     $("#myNav li a").on('mouseover', function(){
+        $("#navImage img").hide().eq($(this).closest('li').index()).show();
+    });
+  </script>
+ -->
+
 </body>
-</html>
