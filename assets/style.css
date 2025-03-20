@@ -89,3 +89,29 @@ body {
 #navImage img{
     display:none;
 }
+
+
+
+/*MOBILE CSS*/
+
+
+@media only screen and (max-width: 600px) { /* smartphones, Android phones, landscape iPhone */ 
+  .main {
+        width: 100%; 
+        display: block; 
+        float:none; 
+        margin-left: 0;
+        margin-top: 11%;
+        font-size: 1.2em;
+        }   
+ 
+  .box {margin-left:0;}
+}
+
+
+
+
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
