@@ -11,7 +11,7 @@ body {
 
 .main {
   width: 40%;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-top: 5%;
   float: left;
   font-family: "calluna-sans", sans-serif;
@@ -39,6 +39,8 @@ body {
 .main ul {
   list-style-type: none;
   margin-bottom: 0.7 em;
+  padding: 0;
+  padding-right:8%;
 }
 
 .main ul a {
@@ -63,10 +65,13 @@ body {
 #myNav{
     list-style-type: none;
     line-height: 1.3em;
+    padding: 0;
+    padding-right:7%;
 }
+
 #myNav li {
     display: inline;
-    padding: 0px;
+    padding: 0;
 }
 
 #myNav li a {
@@ -78,7 +83,7 @@ body {
 }
 
 #navImage img{
-		max-width: 37vw;   /* 50% of the viewport width */
+	max-width: 37vw;   /* 50% of the viewport width */
     max-height: 80vh;
     width: auto;
     height: auto;
@@ -95,17 +100,39 @@ body {
 /*MOBILE CSS*/
 
 
-@media only screen and (max-width: 600px) { /* smartphones, Android phones, landscape iPhone */ 
+@media only screen and (max-width: 1000px) { /* smartphones, Android phones, landscape iPhone */ 
   .main {
         width: 100%; 
-        display: block; 
         float:none; 
         margin-left: 0;
-        margin-top: 11%;
+        margin-right:0;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        height:auto;
         font-size: 1.2em;
         }   
  
-  .box {margin-left:0;}
+  .box {
+    margin-left:0;
+    width: 100vw;
+  }
+
+  #myNav{
+        list-style-type: none;
+        line-height: 1.3em;
+        padding-left: 7%;
+        padding-right:7%;
+    }
+    .main ul {
+        list-style-type: none;
+        margin-bottom: 0;
+        padding-left: 7%;
+        padding-right:7%;
+    }
+
+    #navImage img{
+    max-width: 80vw;   /* 50% of the viewport width */
+    max-height: 90vh;
 }
 
 
